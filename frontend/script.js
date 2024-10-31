@@ -1,6 +1,6 @@
 async function fetchSong() {
     try {
-        const response = await fetch('http://18.153.74.7:3000/random-song');
+        const response = await fetch('http://ec2-3-70-99-192.eu-central-1.compute.amazonaws.com:3000/random-song');
         if (!response.ok) {
             throw new Error('Network response was not ok');
         }
